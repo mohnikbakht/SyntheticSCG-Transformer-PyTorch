@@ -1,14 +1,18 @@
 # Neural SCG Synthesis Transformer Network
 
 Contributions: 
+<p/>
 (1) elucidating a
 transformer-based generative model that can be used to generate synthetic SCG beats more similar to real human SCG beats
-than porcine SCG beats, random noise, and skeleton SCG (see section \ref{Results})
+than porcine SCG beats, random noise, and skeleton SCG (see section \ref{Results}) 
+<p/>
 (2) demonstrating that our synthetic SCG generator model
 can generate SCG beats with AO and AC timings that are strongly
 correlated with the desired AO and AC parameters input to the model
+<p/>
 (3) demonstrating that MODWT embedding is superior to other standard 1-D signal embedding schemes for SCG signals,
 improving the translation of natural language processing approaches to the SCG realm.
+<p/>
 
 ## Dataset
 
