@@ -16,7 +16,7 @@ improving the translation of natural language processing approaches to the SCG r
 
 ## Dataset
 
-For this task we used datasets containing SCG recordings from 82 healthy participants (32 females, and 50 males). 
+For this task we used 5 datasets containing SCG recordings from 82 healthy participants (32 females, and 50 males). 
 
 ## Motivation
 
