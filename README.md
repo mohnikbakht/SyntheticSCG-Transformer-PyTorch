@@ -1,10 +1,18 @@
 # Neural SCG Synthesis Transformer Network
 
-In this work we designed a deep learning model using transformers to generate synthetic Seismocardiogram (SCG) beats with control over features like PEP, LVET, AO/AC amplitudes. We adapted the text to speech model developed by the NLP community to design a feature to SCG waveform model leveraging the power of transformers. To do this we explored three types of tokenizers for SCG signals.
+Contributions: 
+(1) elucidating a
+transformer-based generative model that can be used to generate synthetic SCG beats more similar to real human SCG beats
+than porcine SCG beats, random noise, and skeleton SCG (see section \ref{Results})
+(2) demonstrating that our synthetic SCG generator model
+can generate SCG beats with AO and AC timings that are strongly
+correlated with the desired AO and AC parameters input to the model
+(3) demonstrating that MODWT embedding is superior to other standard 1-D signal embedding schemes for SCG signals,
+improving the translation of natural language processing approaches to the SCG realm.
 
 ## Dataset
 
-For this task we used datasets containing SCG recordings from 94 healthy subjects. 
+For this task we used datasets containing SCG recordings from 82 healthy participants (32 females, and 50 males). 
 
 ## Motivation
 
