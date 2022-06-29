@@ -39,9 +39,9 @@ For validation, distance metrics were used to calculate distances between the 6 
   <img src="https://github.com/mohnikbakht/SyntheticSCG-Transformer-PyTorch/blob/main/figs/figure3.png" width="900"/>
 </p>
 
-## Tokenizer comparison
+## Embedding comparison
 
-Three different tokenizers for SCG beats were explored:
+Three different Embeddings for SCG beats were explored:
 
   1. Pretrained tokenizer: Trained an AE to compress SCG beats. Then used the pretrained encoder and decoder fromthisAEto tokenize and detokenize SCG beats, respectively.
   2. Spectrogram: converted SCG beats to spectrogram images
