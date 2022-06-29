@@ -86,7 +86,7 @@ The figure below shows the ability to vary the morphology using the random ID to
     - Learning rate warmup hyperparameters
 2. Retrain on the whole train + validation set
 3. Test on held-out test set and record evaluation metrics
-    - Distances, t-SNE, expert annotators
+    - Distances, t-SNE
 
 <!-- 
 ### Reports:
